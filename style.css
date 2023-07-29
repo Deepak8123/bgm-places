@@ -1,0 +1,108 @@
+html,body
+{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+}
+
+.pimg1
+{
+    background-image: url(images/amboli-waterfall.jpg);
+    min-height: 70%;
+}
+.pimg2
+{
+    background-image: url(images/shimbola.avif);
+    min-height: 400px;
+}
+.pimg3
+{
+    background-image: url(images/vajrapoha.jpg);
+    min-height: 400px;
+}
+.pimg4
+{
+    background-image: url(images/Dudhsagar-Falls-1.jpeg);
+    min-height: 400px;
+    position: relative;
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: cadetblue;
+}
+
+.pimg5
+{
+    background-image: url(images/amboli-waterfall.jpg);
+    min-height: 300px;
+    position: relative;
+    background-position: right;
+    background-size: 100mm;
+    background-repeat: no-repeat;
+    background-color: coral;
+}
+
+.pimg6
+{
+    background-image: url(images/dudhsagar2.jpg);
+    min-height: 300px;
+    position: relative;
+    background-position: left;
+   
+    background-size: 100mm;
+    background-repeat: no-repeat;
+}
+
+
+.pimg1,
+.pimg2,
+.pimg3
+{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.ptext
+{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 28px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.textbg
+{
+    background-color: #313534;
+    color: white;
+    padding: 20px;
+}
+
+.Section
+{
+    padding: 50px 80px;
+    text-align: center;
+
+}
+
+.Section-Light
+{
+    background-color: burlywood;
+    color: black;
+}
+
+.Section-Dark
+{
+    background-color: burlywood;
+    color: black;
+}
